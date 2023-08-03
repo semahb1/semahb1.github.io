@@ -11,3 +11,22 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+
+
+
+function downloadCV(language){
+    console.log("download");
+    const downloadLink = document.createElement('a');
+    document.body.appendChild(downloadLink);
+    if(language == 'eng'){
+
+        downloadLink.href = "./Bader.Semah-CV-ENG.pdf";
+    }else if (language == 'fr' ){
+        downloadLink.href = "./Bader.Semah-CV-FR.pdf";
+
+    }
+    downloadLink.target = '_blank';
+    downloadLink.download = Date.now()+'.png';
+    downloadLink.click(); 
+}
+

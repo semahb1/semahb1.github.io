@@ -635,6 +635,7 @@ section {
 }
 .main-btn .btn-text {
   padding: 0 2rem;
+  font-size: 14px;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
