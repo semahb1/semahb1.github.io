@@ -1,466 +1,657 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Excel to Json Converter</title>
-    <style>
-        body{
-            left: 50%;
-            top: 50%;
-        }
-        div.upload {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            display: inline-block;
-            height: 30px;
-            padding: 3px 40px 3px 3px;
-            position: relative;
-            width: auto;
-        }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-            div.upload:hover {
-                opacity: 0.95;
-            }
+  <body class="main-content">
+    <header class="container header active" id="home">
+      <div class="header-content">
+        <div class="left-header">
+          <div class="h-shape"></div>
+          <div class="image">
+            <img src="img/mainimg.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="right-header">
+          <h1 class="name">
+            Hi, I'm <span>Semah Bader.</span>
+            A Web Developer.
+          </h1>
+          <p>
+            Welcome to my portfolio! I'm a skilled Full Stack Java Web Developer
+            specializing in Spring Boot and Angular. With a passion for building
+            efficient backend systems and creating engaging user interfaces, I
+            take pride in delivering high-quality solutions.
+          </p>
+          <div class="btn-con">
+            <a href="" class="main-btn">
+              <span class="btn-text">Download CV</span>
+              <span class="btn-icon"><i class="fas fa-download"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container about" id="about">
+        <div class="main-title">
+          <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+        </div>
+        <div class="about-container">
+          <div class="left-about">
+            <h4>Why Choose Me:</h4>
+            <p>
+              I am a passionate and dedicated Full Stack Java Web Developer with
+              a strong expertise in Spring Boot and Angular technologies. My
+              journey in the world of software development began with an
+              insatiable curiosity for crafting elegant and efficient solutions.
+            </p>
+            <div class="btn-con">
+              <a href="#" class="main-btn">
+                <span class="btn-text">Download CV</span>
+                <span class="btn-icon"><i class="fas fa-download"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="right-about">
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">Passion for Technology</p>
+                <p class="small-text">
+                  I am genuinely enthusiastic about technology and stay updated
+                  with the latest industry trends and best practices.
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">Collaborative Team Player</p>
+                <p class="small-text">
+                  I thrive in collaborative environments and value teamwork. I
+                  believe that the best results come from a collective effort.
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">Detail-Oriented</p>
+                <p class="small-text">
+                  I pay meticulous attention to detail, ensuring that every
+                  aspect of my work is of the highest quality.
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="abt-text">
+                <p class="large-text">Continuous Learner</p>
+                <p class="small-text">
+                  The tech world evolves rapidly, and I embrace continuous
+                  learning to stay at the forefront of new developments.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <h4 class="stat-title">Technical Skills</h4>
+          <div class="progress-bars">
+            <div class="progress-bar">
+              <p class="prog-title">SpringBoot</p>
+              <div class="progress-con">
+                <p class="prog-text">70%</p>
+                <div class="progress">
+                  <span class="html"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Angular</p>
+              <div class="progress-con">
+                <p class="prog-text">70%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Java</p>
+              <div class="progress-con">
+                <p class="prog-text">80%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Javascript</p>
+              <div class="progress-con">
+                <p class="prog-text">80%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">MySQL</p>
+              <div class="progress-con">
+                <p class="prog-text">80%</p>
+                <div class="progress">
+                  <span class="js"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">SQL</p>
+              <div class="progress-con">
+                <p class="prog-text">80%</p>
+                <div class="progress">
+                  <span class="node"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">HTML5/CSS</p>
+              <div class="progress-con">
+                <p class="prog-text">90%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Mongo</p>
+              <div class="progress-con">
+                <p class="prog-text">80%</p>
+                <div class="progress">
+                  <span class="react"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <h4 class="stat-title">Lanuistical Skills</h4>
+          <div class="progress-bars">
+            <div class="progress-bar">
+              <p class="prog-title">Arabic - Native</p>
+              <div class="progress-con">
+                <p class="prog-text">100%</p>
+                <div class="progress">
+                  <span class="html"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">English - B2</p>
+              <div class="progress-con">
+                <p class="prog-text">70%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Frensh - B2</p>
+              <div class="progress-con">
+                <p class="prog-text">70%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">German - A2</p>
+              <div class="progress-con">
+                <p class="prog-text">20%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 class="stat-title">My Timeline</h4>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">July 2023 - Present</p>
+            <h5>Software Engineer<span> Internship - DND Serv</span></h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              quasi vero fugit.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">Jan 2023 - Mai 2023 - 5 moths</p>
+            <h5>Software Engineer<span> - Academic</span></h5>
+            <p>
+              An international mobility application is a platform that is
+              intended to ease and streamline the process of handling all of the
+              activities associated with learning abroad.<br />
 
-            div.upload input[type="file"] {
-                width: 100%;
-                height: 30px;
-                opacity: 0;
-                cursor: pointer;
-                position: absolute;
-                left: 0;
-            }
+              • Studied our customers needs.<br />
+              • Development appointements management module.<br />
+              • Implémentation of high interacting live chat module.<br />
+              • Implémentation realtime video-call feature.<br />
+              • Messages autocomplete system.<br />
+              <br />
+              Architecture : Microservice.<br />
+              Used technologies : SpringBoot , Angular , WebSockets , MySQL ,
+              ElasticSearch , Html, CSS, Typescript, , Bootstrap , SQL , JPQL
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">Mars 2022 - Septembre 2022 - 7 moths</p>
+            <h5>Software Engineer<span> - Freelance</span></h5>
+            <p>
+              Development of a Telemedecine platform :<br />
+              • Users and authentication management (JWT).<br />
+              • Patients management.<br />
+              • Medical folder management(radiologies,analyses,diseases).<br />
+              • Appointments management.<br />
+              • Prescription with electronic signature (QrCode) Used.<br />
+              <br />
+              Used technologies :<br />
+              SpringBoot , Angular , MySQL , Html, CSS, Typescript, , Bootstrap
+              , SQL , JPQL
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">Jan 2022 - May 2022 · 5 moths</p>
+            <h5>Java Developer<span> - Academic </span></h5>
+            <p>
+              Multi Platform Application, themed Online gym.
+              <br />
+              • Studied our customers needs.<br />
+              • Developed a solution for a role based user management.<br />
+              • Implemented a powerful and highly customizable authentication
+              and access control<br />
+              • Multilingual website<br />
+              <br />
+              Used technologies :<br />
+              • Desktop : JAVA , JAVAFX , SCENEBUILDER , CSS , SQL<br />
+              • Web : PHP, SYMPHONY 4.4 , AJAX , BOOTSTRAP , CSS , HTML , SQL<br />
+              • Mobile : JAVA , CODENAMEONE , SQL<br />
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">2019 - Present</p>
+            <h5>Computer Science Degree<span> - ESPRIT </span></h5>
+          </div>
+        </div>
+      </section>
+      <section class="container" id="portfolio">
+        <div class="main-title">
+          <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+        </div>
+        <p class="port-text">
+          Here is some of my work that I've done in various programming
+          languages.
+        </p>
+        <div class="portfolios">
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="img/port1.jpg" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="#" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="img/port2.jpg" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="#" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="img/port3.jpg" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="#" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="img/port4.jpg" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="#" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="img/port5.jpg" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="#" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="img/port2.jpg" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="#" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="image">
+              <img src="img/port7.jpg" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="#" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container" id="blogs">
+        <div class="blogs-content">
+          <div class="main-title">
+            <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+          </div>
+          <div class="blogs">
+            <div class="blog">
+              <img src="img/port6.jpg" alt="" />
+              <div class="blog-text">
+                <h4>How to Create Your Own Website</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                </p>
+              </div>
+            </div>
+            <div class="blog">
+              <img src="img/blog1.jpg" alt="" />
+              <div class="blog-text">
+                <h4>How to Become an Expert in Web Design</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                </p>
+              </div>
+            </div>
+            <div class="blog">
+              <img src="img/blog2.jpg" alt="" />
+              <div class="blog-text">
+                <h4>Become a Web Designer in 10 Days</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                </p>
+              </div>
+            </div>
+            <div class="blog">
+              <img src="img/blog3.jpg" alt="" />
+              <div class="blog-text">
+                <h4>Debbuging made easy with Web Inspector</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                </p>
+              </div>
+            </div>
+            <div class="blog">
+              <img src="img/port1.jpg" alt="" />
+              <div class="blog-text">
+                <h4>Get started with Web Design and UI Design</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                </p>
+              </div>
+            </div>
+            <div class="blog">
+              <img src="img/port3.jpg" alt="" />
+              <div class="blog-text">
+                <h4>This is what you need to know about Web Design</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloribus natus voluptas, eos obcaecati recusandae amet?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container contact" id="contact">
+        <div class="contact-container">
+          <div class="main-title">
+            <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+          </div>
+          <div class="contact-content-con">
+            <div class="left-contact">
+              <h4>Contact me here</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                laborum numquam? Quam excepturi perspiciatis quas quasi.
+              </p>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Location</span>
+                  </div>
+                  <p>: London, united Kingdom</p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                  </div>
+                  <p>
+                    <span>: maclinzuniversal@gmail.com</span>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Education</span>
+                  </div>
+                  <p>
+                    <span>: Sussex University, East Sussex</span>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Mobile Number</span>
+                  </div>
+                  <p>
+                    <span>: 07522670617</span>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-globe-africa"></i>
+                    <span>Languages</span>
+                  </div>
+                  <p>
+                    <span>: Afrikaans, English, Spanish</span>
+                  </p>
+                </div>
+              </div>
+              <div class="contact-icons">
+                <div class="contact-icon">
+                  <a href="www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="right-contact">
+              <form action="" class="contact-form">
+                <div class="input-control i-c-2">
+                  <input type="text" required placeholder="YOUR NAME" />
+                  <input type="email" required placeholder="YOUR EMAIL" />
+                </div>
+                <div class="input-control">
+                  <input type="text" required placeholder="ENTER SUBJECT" />
+                </div>
+                <div class="input-control">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="15"
+                    rows="8"
+                    placeholder="Message Here..."
+                  ></textarea>
+                </div>
+                <div class="submit-btn">
+                  <a href="#" class="main-btn">
+                    <span class="btn-text">Download CV</span>
+                    <span class="btn-icon"
+                      ><i class="fas fa-download"></i
+                    ></span>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-        .uploadButton {
-            background-color: #035369;
-            border: none;
-            border-radius: 3px;
-            color: #FFF;
-            cursor: pointer;
-            display: inline-block;
-            height: 30px;
-            margin-right: 15px;
-            width: auto;
-            padding: 0 20px;
-            box-sizing: content-box;
-        }
-
-        .fileName {
-            font-family: Arial;
-            font-size: 14px;
-        }
-
-        .upload + .uploadButton {
-            height: 38px;
-        }
-
-        #downloadFile {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 15px;
-            background: #035369;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <h2>الرجاء ادخال الملف</h2>
-    <div class="upload">
-        <input type="button" class="uploadButton" value="اختيار" />
-        <input type="file" id="fileUpload" name="myfile" onchange="checkfile(this)" />
-        <span class="fileName" id="fileName" >Select file..</span>
+    <div class="controls">
+      <div class="control active-btn" data-id="home">
+        <i class="fas fa-home"></i>
+      </div>
+      <div class="control" data-id="about">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="control" data-id="portfolio">
+        <i class="fas fa-briefcase"></i>
+      </div>
+      <div class="control" data-id="blogs">
+        <i class="far fa-newspaper"></i>
+      </div>
+      <div class="control" data-id="contact">
+        <i class="fas fa-envelope-open"></i>
+      </div>
     </div>
-    <hr /> 
-    <input type="number" id="division"  onchange="divisionchange()">
-    <div class="" style="display: inline;">
-
-        <label for="downloadFile"> عدد الملفات</label>
-        <span><br></span>
-        <span><br></span>
-         <button id="downloadFile" style="visibility: hidden "  >حفظ</button>
+    <div class="theme-btn">
+      <i class="fas fa-adjust"></i>
     </div>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/xlsx.full.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/jszip.js"></script>
-
-<script type="text/javascript">
-
-    var excelRows = [];
-    function checkfile(sender) {
-        var validExts = new Array(".xlsx");
-        var fileExt = sender.value;
-        fileExt = fileExt.substring(fileExt.lastIndexOf('.'));
-        if (validExts.indexOf(fileExt) < 0) {
-            alert("Invalid file selected, valid files are of " + validExts.toString() + " types.");
-            return false;
-        }
-        else
-          //  document.getElementById("fileName").innerHTML = fileExt.na
-            processExcel();
-    }
-    function processExcel() {
-        var fileUpload = document.getElementById("fileUpload");
-        if (typeof (FileReader) != "undefined") {
-            var reader = new FileReader();
-
-            //For Browsers other than IE.
-            if (reader.readAsBinaryString) {
-                reader.onload = function (e) {
-                    readExcel(e.target.result);
-                };
-                reader.readAsBinaryString(fileUpload.files[0]);
-            } else {
-                //For IE Browser.
-                reader.onload = function (e) {
-                    var data = "";
-                    var bytes = new Uint8Array(e.target.result);
-                    for (var i = 0; i < bytes.byteLength; i++) {
-                        data += String.fromCharCode(bytes[i]);
-                    }
-                    readExcel(data);
-                };
-                reader.readAsArrayBuffer(fileUpload.files[0]);
-            }
-        } else {
-            alert("This browser does not support HTML5.");
-        }
-    };
-
-    function readExcel(data) {
-        var workbook = XLSX.read(data, {
-            type: 'binary'
-        });
-        var firstSheet = workbook.SheetNames[0];
-        excelRows = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[firstSheet]);
-        console.log(excelRows);
-
-        //By using javasript json parser
-        //var json = JSON.parse('{"Name": "", "LastName": "", "Quantite": ""}');
-        var download = document.getElementById("downloadFile");
-        download.style.visibility = "visible"
-        download.disabled = true ;
-        download.style.backgroundColor = "grey";
-
-
-        download.addEventListener('click', event => {
-               alert("dowloading")
-               downLoad(excelRows,input)
-
-        });
-
-        var input = document.getElementById("division");
-
-        //input.setAttribute("min", excelRows[0].Quantite %70 ); // set a new value;
-
-        
-            
-
-
-    //    var json = JSON.stringify(excelRows, null, 2)
-
-
-
-
-
-
-    }
-        //         function download_csv_file() {
-
-        //     //define the heading for each row of the data
-        //     var csv = 'Name,LastName,Quantite\n';
-
-        //     //merge the data with CSV
-        //     // csvFileData.forEach(function(row) {
-        //     //         csv += row.join(',');
-        //     //         csv += "\n";
-        //     // });
-
-        //     //display the created CSV data on the web browser 
-        //    // document.write(csv);
-
-
-        //     var hiddenElement = document.createElement('a');
-        //     hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
-        //     hiddenElement.target = '_blank';
-
-        //     //provide the name for the CSV file to be downloaded
-        //     hiddenElement.download = 'Famous Personalities.csv';
-        //     hiddenElement.click();
-        // }
-
-
-        // bexportToCsv = function() {
-        //          var CsvString = "";
-        //          Results.forEach(function(RowItem, RowIndex) {
-        //              RowItem.forEach(function(ColItem, ColIndex) {
-        //                 CsvString += ColItem + ',';
-        //     });
-        //     CsvString += "\r\n";
-        // });
-
-        // CsvString = "data:application/csv," + encodeURIComponent(CsvString);
-        // var x = document.createElement("A");
-        // x.setAttribute("href", CsvString );
-        // x.setAttribute("download","somedata.csv");
-        // document.body.appendChild(x);
-        // x.click();
-        // }
-
-    // function generateJsonFile(json) {
-    //     var jsonFile = null;
-    //     var data = new Blob([json], { type: 'text/json' });
-
-    //     if (jsonFile !== null) {
-    //         window.URL.revokeObjectURL(jsonFile);
-    //     }
-    //     jsonFile = window.URL.createObjectURL(data);
-
-    //     return jsonFile;
-    // }
-
-
-        
-
-
-        // exportToCsv = function(array) {
-        //     var CsvString = "ID,DESCRIPT,Quantite";
-        //     array.forEach(function(RowItem, RowIndex) {
-        //         array.forEach(function(ColItem, ColIndex) {
-        //             CsvString += ColItem + ',';
-        //         });
-
-        //          CsvString += "\r\n";
-        //     });
-
-        //         console.log(CsvString)
-        //          window.open('data:application/vnd.ms-excel,' + encodeURIComponent(CsvString));
-        // }
-
-        function divisionchange() {
-            document.getElementById("downloadFile").disabled = false ;
-            document.getElementById("downloadFile").removeAttribute("style") ;
-
-            
-        }
-
-
-            function downLoad(excelRows,input) {
-                
-                    
-
-
-                    // console.log( excelRows[rows].Quantite %30);
-                    // console.log( quantite);
-                    var array = [];
-                    var total = [];
-                    var quantite = 0 ;
-                    //console.log( quantite /  200 );
-
-                    // if(quantite %input.value == 0){
-                    //     console.log( "reste 0");
-                    //     console.log(excelRows.length);
-
-
-
-                    //     //  const result = array.join(',');
-                    //     //  console.log(result)
-
-                    //         for (let index = 0; index < excelRows.length; index++) {
-                    //             //console.log(array[index])
-                    //              quantite = excelRows[index].Quantite ;
-                    //              array[index] = quantite / input.value ;
-  
-                    //         }
-
-                    //          for (let index = 0; index < input.value ; index++) {
-                    
-                           
-                    //              toexel(excelRows , array);
-                    //          }
-
-                            
-
-                        
-
-                    // }else{
-                    //     console.log( "rest > 0");
-                    //     var somme = 0 ;
-
-
-
-                        for (let index = 0; index < excelRows.length; index++) {
-                                quantite = excelRows[index].Quantite ;
-                                total[index] = quantite ;
-                                console.log(quantite)
-                                 if (quantite %input.value == 0) {
-                                    array[index] = quantite / input.value ;
-                                     
-                                 }else{
-                                     
-                                     array[index] = Math.trunc(quantite / input.value) ;
-                                 }
-
-  
-                            }
-
-                             for (let index = 0; index < input.value ; index++) {
-                    
-                                if (index == input.value - 1) {
-                                    
-                                    for (let indexlast = 0; indexlast < array.length; indexlast++) {
-
-                                        
-                                        quantite = total[indexlast] ;
-
-                                        console.log(quantite)
-
-                                         //console.log("quantite ::: " + quantite + "array :::  " + array[indexlast]*input.value)
-                                        // console.log(array[index])
-
-                                        array[indexlast] += quantite - (array[indexlast]*input.value) ;
-                                    }
-
-                                }
-                                 toexel(excelRows , array);
-                             }
-
-
-                        // for (let index = 0; index < input.value ; index++) {
-                    
-                        //     array[index] = Math.trunc(quantite / input.value) ;
-                        //     somme += array[index];
-
-                        // }
-                        // console.log(array)
-                        // console.log("quantite :: " + quantite + "somme :: " + somme);
-
-                        // //input--;
-                        // array[input.value -1 ] += quantite - somme ;
-                        // console.log( quantite % input.value)
-
-                        // for (let index = 0; index < array.length; index++) {
-                        //         console.log(array[index])
-
-                        //         toexel(excelRows , array[index],index);
-                                
-                        //     }
-
-            }
-
-            
-        
-
-
-
-
-        function toexel(json , array ) {
-
-
-                var createXLSLFormatObj = [];
-
-                /* XLS Head Columns */
-                var xlsHeader = ["Name", "LastName","Quantite"];
-
-                /* XLS Rows Data */
-                // var xlsRows = [{
-                //         "EmployeeID": "EMP001",
-                //         "FullName": "Jolly"
-                //     },
-                //     {
-                //         "EmployeeID": "EMP002",
-                //         "FullName": "Macias"
-                //     },
-                //     {
-                //         "EmployeeID": "EMP003",
-                //         "FullName": "Lucian"
-                //     },
-                //     {
-                //         "EmployeeID": "EMP004",
-                //         "FullName": "Blaze"
-                //     },
-                //     {
-                //         "EmployeeID": "EMP005",
-                //         "FullName": "Blossom"
-                //     },
-                //     {
-                //         "EmployeeID": "EMP006",
-                //         "FullName": "Kerry"
-                //     },
-                //     {
-                //         "EmployeeID": "EMP007",
-                //         "FullName": "Adele"
-                //     },
-                //     {
-                //         "EmployeeID": "EMP008",
-                //         "FullName": "Freaky"
-                //     },
-                //     {
-                //         "EmployeeID": "EMP009",
-                //         "FullName": "Brooke"
-                //     },
-                //     {
-                //         "EmployeeID": "EMP010",
-                //         "FullName": "FreakyJolly.Com"
-                //     }
-                // ];
-
-                console.log(json)
-                //console.log("exel ::: " +json.Quantite + " " + quantite )
-                for (let index = 0; index < array.length; index++) {
-                    
-                    
-                    json[index].Quantite = array[index] ;
-                }
-
-
-                createXLSLFormatObj.push(xlsHeader);
-                $.each(json, function( index , value) {
-                    var innerRowData = [];
-                    $("tbody").append('<tr><td>' + value.EmployeeID + '</td><td>' + value.FullName + '</td></tr>');
-                    $.each(value, function(ind, val) {
-
-                        innerRowData.push(val);
-                    });
-                    createXLSLFormatObj.push(innerRowData);
-                });
-
-
-                /* File Name */
-                var filename = "file"  + " .xlsx";
-
-                /* Sheet Name */
-                var ws_name = "Sheet" ;
-
-                if (typeof console !== 'undefined') console.log(new Date());
-                var wb = XLSX.utils.book_new(),
-               // wbk = new workbook();
-               // var wb = xlsxwriter.Workbook('C:/Users/User/Desktop/')
-                ws = XLSX.utils.aoa_to_sheet(createXLSLFormatObj);
-
-                //var path = "C:/Users/User/Desktop/";
-
-                /* Add worksheet to workbook */
-                XLSX.utils.book_append_sheet(wb, ws, ws_name);
-
-                //wb.save(path)
-
-
-                /* Write workbook and Download */
-                if (typeof console !== 'undefined') console.log(new Date());
-                XLSX.writeFile(wb,   filename );
-                
-                if (typeof console !== 'undefined') console.log(new Date());
-
-    }
-
-
-
-</script>
