@@ -424,9 +424,9 @@ section {
   top: 0;
   border-radius: 15px;
   display: flex;
-  justify-content: center;
+   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; 
   opacity: 0;
   transform: scale(0);
   transition: all 0.4s ease-in-out;
@@ -693,7 +693,22 @@ section {
   padding-left: 0;
 }
 
+video{
+  width: 1000px ;
+  height: 800px
+}
+
+.desktop-br{
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
+
+  video{
+    width: 300px ;
+    height: 300px
+  }
+
   header {
     padding: 0 !important;
   }
@@ -872,6 +887,13 @@ section {
   }
 }
 @media screen and (max-width: 660px) {
+
+  video{
+    width: 300px ;
+    height: 200px
+  }
+
+
   .blogs {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -899,6 +921,12 @@ section {
   }
 }
 @media screen and (max-width: 970px) {
+
+  video{
+    width: 650px ;
+    height: 500px
+  }
+
   .container {
     padding: 7rem 6rem;
   }
@@ -932,32 +960,82 @@ section {
     padding-top: 3rem;
   }
 }
-@media screen and (max-width: 700px) {
+
+
+@media screen and (max-width: 400px) {
+
+  video{
+    width: 300px ;
+    height: 200px
+  }
+
+  .desktop-br{
+    display: inline;
+  }
+
   .container {
-    padding: 7rem 3rem;
+    padding: 2rem 2.5rem;
   }
 
-  .about-stats .progress-bars {
-    grid-template-columns: repeat(1, 1fr);
+
+  header {
+    padding: 0 !important;
   }
 
-  .about-container .right-about {
+  .main-btn .btn-text {
+    padding: 0 2rem;
+    font-size: 16px;
+  }
+ 
+
+  .header-content {
     grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 2rem;
   }
 
-  .timeline {
-    grid-template-columns: repeat(1, 1fr);
+  .left-header .h-shape {
+    display: none;
+  }
+
+  .right-header {
+    grid-row: 1;
+    padding-right: 0rem !important;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .header-content .right-header p {
+  margin: 1.5rem 0;
+  line-height: 2rem;
+  font-size: 0.9rem;
+}
+
+
+  .right-header .name {
+    font-size: 1.5rem !important;
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+  .header-content .left-header .image {
+    margin: 0 auto;
+    width: 90%;
   }
 
   .main-title h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .main-title h2 span {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
   .main-title h2 .bg-text {
-    font-size: 4rem;
+    font-size: 2.3rem;
   }
+
 }
+
+
+
+
 
 /*# sourceMappingURL=styles.css.map */
